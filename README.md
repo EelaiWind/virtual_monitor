@@ -2,7 +2,7 @@
 
 #### Goal: Add a virtual monitor on a server without a physical monitor. Make it possible to run the V-REP simulatior.
 
-1. Download [dfp-edid.bin](https://drive.google.com/open?id=0B-KERIuNSvqab1ZBSWx4SF9aVzA) and put it at `/etc/dfp-edid.bin`. This file will act as a virtual monitor
+1. Download [dfp-edid.bin](https://github.com/EelaiWind/virtual_monitor/blob/master/dfp-edid.bin?raw=true) and put it at `/etc/dfp-edid.bin`. This file will act as a virtual monitor
 2. Edit `/etc/X11/xorg.conf`. Add the following 3 line in each **Section “Screen”**
     ```
     Option    "UseDisplayDevice" "DFP-0"
